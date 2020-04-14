@@ -1,0 +1,43 @@
+.nav-box {
+  background-color: $color-grey-dark;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.nav-menu {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__link {
+    text-transform: uppercase;
+    color: $color-black;
+    font-weight: 700;
+    transition: all .3s;
+    position: relative;
+
+    &:hover {
+      color: $color-blue;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -18px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 13px 12.5px 0 12.5px;
+        border-color: #fff transparent transparent transparent;
+      }
+    }
+    
+  }
+}

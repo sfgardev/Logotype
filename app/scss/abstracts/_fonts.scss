@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-Regular/Panton-Regular.eot');
+  src: local('Panton Regular'), local('Panton-Regular'),
+      url('../fonts/Panton-Regular/Panton-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Panton-Regular/Panton-Regular.woff') format('woff'),
+      url('../fonts/Panton-Regular/Panton-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-ExtraBold/Panton-ExtraBold.eot');
+  src: local('Panton ExtraBold'), local('Panton-ExtraBold'),
+      url('../fonts/Panton-ExtraBold/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Panton-ExtraBold/Panton-ExtraBold.woff') format('woff'),
+      url('../fonts/Panton-ExtraBold/Panton-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-Bold/Panton-Bold.eot');
+  src: local('Panton Bold'), local('Panton-Bold'),
+      url('../fonts/Panton-Bold/Panton-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Panton-Bold/Panton-Bold.woff') format('woff'),
+      url('../fonts/Panton-Bold/Panton-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-SemiBold/Panton-SemiBold.eot');
+  src: local('Panton SemiBold'), local('Panton-SemiBold'),
+      url('../fonts/Panton-SemiBold/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Panton-SemiBold/Panton-SemiBold.woff') format('woff'),
+      url('../fonts/Panton-SemiBold/Panton-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
